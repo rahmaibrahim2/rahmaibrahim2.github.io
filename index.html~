@@ -1,240 +1,172 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
-		<title>Band Template</title>
-		<!-- Loading third party fonts -->
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
-		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<!-- Loading main css file -->
-		<link rel="stylesheet" href="style.css">
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
-
+		<title>Big Picture by HTML5 UP</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollex.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-normal.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
+	<body>
 
-	<body class="header-collapse">
-		
-		<div id="site-content">
-			<header class="site-header">
-				<div class="container">
-					<a href="index.html" id="branding">
-						<img src="dummy/logo.png" alt="Site Title">
-						<small class="site-description">Slogan goes here</small>
-					</a> <!-- #branding -->
-					
-					<nav class="main-navigation">
-						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
-						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-							<li class="menu-item"><a href="about.html">About</a></li>
-							<li class="menu-item"><a href="gallery.html">Gallery</a></li>
-							<li class="menu-item"><a href="download.html">Download</a></li>
-							<li class="menu-item"><a href="blog.html">Blog</a></li>
-							<li class="menu-item"><a href="contact.html">Contact</a></li>
-						</ul> <!-- .menu -->
-					</nav> <!-- .main-navigation -->
-					<div class="mobile-menu"></div>
+		<!-- Header -->
+			<header id="header">
+
+				<!-- Logo -->
+					<h1 id="logo">Big Picture</h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#one">What I Do</a></li>
+							<li><a href="#two">Who I Am</a></li>
+							<li><a href="#work">My Work</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container 75%">
+					<header>
+						<h2>Hey.</h2>
+					</header>
+					<p>Am Rahma Ibrahim and am passionate about Tech and Design.<strong> Welcome to my Portfolio</strong> 
+					<a href="http://html5up.net"></a> <strong><a href="http://getskel.com"></a></strong>
+					<a href="http://html5up.net/license"> </a>.</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
 				</div>
-			</header> <!-- .site-header -->
-			
-			<div class="hero">
-				<div class="slider">
-					<ul class="slides">
-						<li class="lazy-bg" data-background="dummy/slide-1.jpg">
-							<div class="container">
-								<h2 class="slide-title">Header goes here</h2>
-								<h3 class="slide-subtitle">Less important text goes here</h3>
-								<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>
+			</section>
 
-								<a href="#" class="button cut-corner">Read More</a>
-							</div>
-						</li>
-						<li class="lazy-bg" data-background="dummy/slide-2.jpg">
-							<div class="container">
-									<h2 class="slide-title">Header goes here</h2>
-									<h3 class="slide-subtitle">Less important text goes here</h3>
-									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>
-
-									<a href="#" class="button cut-corner">Read More</a>
-							</div>
-						</li>
-						<li class="lazy-bg" data-background="dummy/slide-3.jpg">
-							<div class="container">
-									<h2 class="slide-title">Header goes here</h2>
-									<h3 class="slide-subtitle">Less important text goes here</h3>
-									<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>
-
-									<a href="#" class="button cut-corner">Read More</a>
-							</div>
-						</li>
-					</ul>
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
 				</div>
-			</div>
-			
-			<main class="main-content">
-				<div class="fullwidth-block testimonial-section">
-					<div class="container">
-						<div class="quote-slider">
-							<ul class="slides">
-								<li>
-									<blockquote>
-										<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
-										<cite>John Smith</cite>
-										<span>Corporation CEO, books author</span>
-									</blockquote>
-								</li>
-								<li>
-									<blockquote>
-										<p>"Iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
-										<cite>John Smith</cite>
-										<span>Corporation CEO, books author</span>
-									</blockquote>
-								</li>
-							</ul>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>My Work</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
+						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+					</header>
+
+					<!-- Lightbox Gallery  -->
+						<div class="container 75% gallery">
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+							</div>
+							<div class="row 0% images">
+								<div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+							</div>
 						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					</header>
+					<div class="box container 75%">
+
+					<!-- Contact Form -->
+							<form method="post" action="#">
+								<div class="row 50%">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="email" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row 50%">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
 					</div>
-				</div> <!-- .testimonial-section -->
-
-				<div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">
-					<div class="container">
-						<header class="section-header">
-							<h2 class="section-title">Upcoming events</h2>
-
-							<div class="event-nav">
-								<a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i></a>
-	    						<a class="next" id="event-next" href="#"><i class="fa fa-caret-right"></i></a>
-							</div> <!-- .event-nav -->
-
-						</header> <!-- .section-header -->
-						<div class="event-carousel">
-							
-							<div class="event">
-								<div class="entry-date">
-									<div class="date">23</div>
-									<span class="month">Jun</span>
-								</div>
-								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
-							</div> <!-- .event -->
-							
-							
-							<div class="event">
-								<div class="entry-date">
-									<div class="date">23</div>
-									<span class="month">Jun</span>
-								</div>
-								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
-							</div> <!-- .event -->
-							
-							
-							<div class="event">
-								<div class="entry-date">
-									<div class="date">23</div>
-									<span class="month">Jun</span>
-								</div>
-								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
-							</div> <!-- .event -->
-							
-							
-							<div class="event">
-								<div class="entry-date">
-									<div class="date">23</div>
-									<span class="month">Jun</span>
-								</div>
-								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>
-							</div> <!-- .event -->
-							
-							
-							<div class="event">
-								<div class="entry-date">
-									<div class="date">23</div>
-									<span class="month">Jun</span>
-								</div>
-								<h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur </p>
-							</div> <!-- .event -->
-							
-						</div> <!-- .event-carousel -->
-					</div> <!-- .container -->
-				</div> <!-- .upcoming-event-section -->
-
-				<div class="fullwidth-block why-chooseus-section">
-					<div class="container">
-						<h2 class="section-title">Why choose us?</h2>
-
-						<div class="row">
-							<div class="col-md-4">
-								<div class="feature">
-									<figure class="cut-corner">
-										<img src="dummy/medium-image-1.jpg" alt="">
-									</figure>
-									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-								</div> <!-- .feature -->
-							</div>
-							<div class="col-md-4">
-								<div class="feature">
-									<figure class="cut-corner">
-										<img src="dummy/medium-image-2.jpg" alt="">
-									</figure>
-									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-								</div> <!-- .feature -->
-							</div>
-							<div class="col-md-4">
-								<div class="feature">
-									<figure class="cut-corner">
-										<img src="dummy/medium-image-3.jpg" alt="">
-									</figure>
-									<h3 class="feature-title">Similique sunt in culpa qui officia deserunt mollitia animi laborum dolorum</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-								</div> <!-- .feature -->
-							</div>
-						</div>
-					</div> <!-- .container -->
-				</div> <!-- .why-chooseus-section -->
-			</main> <!-- .main-content -->
-
-			<footer class="site-footer">
-				<div class="container">
-					<img src="dummy/logo-footer.png" alt="Site Name">
-					
-					<address>
-						<p>495 Brainard St. Detroit, MI 48201 <br><a href="tel:354543543">(563) 429 234 890</a> <br> <a href="mailto:info@bandname.com">info@bandname.com</a></p> 
-					</address> 
-					
-					<form action="#" class="newsletter-form">
-						<input type="email" placeholder="Enter your email to join newsletter...">
-						<input type="submit" class="button cut-corner" value="Subscribe">
-					</form> <!-- .newsletter-form -->
-					
-					<div class="social-links">
-						<a href="#"><i class="fa fa-facebook-square"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-					</div> <!-- .social-links -->
-					
-					<p class="copy">Copyright 2014 Company Name. Designed by Themezy. All right reserved</p>
 				</div>
-			</footer> <!-- .site-footer -->
+			</section>
 
-		</div> <!-- #site-content -->
+		<!-- Footer -->
+			<footer id="footer">
 
-		<script src="js/jquery-1.11.1.min.js"></script>		
-		<script src="js/plugins.js"></script>
-		<script src="js/app.js"></script>
-		
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
 	</body>
-
 </html>
