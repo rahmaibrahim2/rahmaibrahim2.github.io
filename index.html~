@@ -106,11 +106,15 @@
                     <div class="row">
                         <div class="col-md-20 col-sm-20">
                             <div class="team">
-                                <img src="img/team/rah.png" class="img-responsive img-circle" alt="...">
+                                <img src="img/team/rah.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
                                 <h4>Rahma Ibrahim
+
+
+
+
 Web Designer</h4>
-                                <p class="small">CEO/Founder</p>
+                                <p class="small"></p>
                                 <hr>
                             </div>
                         </div>
@@ -245,11 +249,11 @@ Web Designer</h4>
                             <a href="#">
                                 <div class="hover-text">
                                     <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
+                                    <p class="lead">poster</p>
                                     <div class="hline"></div>
                                 </div>
                             </a>
-                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
+                            <img src="img/portfolio/hijab.png" class="img-responsive" alt="...">
                         </div>
                     </div>
                 </div>
@@ -297,7 +301,7 @@ Web Designer</h4>
 
             <div class="row">
                 <div class="col-md-3">
-                    <>
+                    
                         <strong></strong><br>
                         <br>
                         <br>
